@@ -1,10 +1,11 @@
 'use strict';
 
 const generateListButton = document.querySelector('#generateList');
-const inputs = document.querySelectorAll('.input');
 const list = document.querySelector('#myList');
 
 generateListButton.addEventListener('click', function () {
+
+    const inputs = document.querySelectorAll('.input');
 
     list.innerHTML = "<h1>My List</h1>";
 
